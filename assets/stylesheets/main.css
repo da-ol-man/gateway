@@ -409,9 +409,18 @@ a {
 */
 
 .venue-theatre {
+
   margin-bottom: 66px;
 }
 
+.venue-theatre h2 {
+  color: #4D6280;
+}
+
+.venue-theatre p {
+  color: #4D6280;
+  font-size: 18px;
+}
 
 
 
