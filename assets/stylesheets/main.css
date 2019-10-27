@@ -145,23 +145,33 @@ h1, h3, h4, h5, p {
   border-top: 4px solid #3D79CC;
   float: left;
   font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
   line-height: 44px;
   padding: 40px 0 22px 0;
+  text-transform: uppercase;
   }
 
-  tagline {
+  .tagline {
     margin: 66px 0 22px 0;
+    text-align: right;
   }
-
-/*
-  ========================================
-  Primary nav
-  ========================================
-*/
 
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+  text-align: right;
 }
 
 /*
@@ -190,6 +200,7 @@ h1, h3, h4, h5, p {
 .hero {
   line-height: 44px;
   padding: 22px 80px 66px 80px;
+  text-align: center;
 }
 
 .hero h2 {
@@ -198,6 +209,7 @@ h1, h3, h4, h5, p {
 
 .hero p {
   font-size: 24px;
+  font-weight: 100;
 }
 
 .col-1-3 {
@@ -239,11 +251,11 @@ h1, h3, h4, h5, p {
 
 body {
   color: #888888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4 {
-  color: #264B80;
+  color: #3D79CC;
 }
 
 h1 {
@@ -262,9 +274,10 @@ h4 {
 }
 
 h5 {
-  color: #a9b2b9;
+  color: #3D79CC;
   font-size: 14px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 strong {
@@ -280,13 +293,22 @@ cite, em {
   ========================================
 */
 
+a {
+  color: #3D79CC;
+  text-decoration: none;
+}
+
 a:hover {
   color: #a9b2b9;
 }
-a {
-  color: #3D79CC;
+
+p a {
+  border-bottom: 1px solid #3D79CC;
 }
 
+.teaser a:hover h3 {
+  color: #a9b2b9;
+}
 
 
 
