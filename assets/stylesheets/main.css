@@ -59,6 +59,18 @@ This is the CSS RESET above
 ============================================
 */
 
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+ body {
+   background: #4D6280; 
+   color: #888888;
+   font: 300 16px/22px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+
 /*  
 ============================================
 Grid
@@ -84,6 +96,26 @@ Grid
   padding-right: 30px;
   }
 
+  .col-1-3 {
+    width: 33.33%;
+    }
+  
+  .col-2-3 {
+    width: 66.66%;
+    }
+  
+  .col-1-3,
+  .col-2-3 {
+    display: inline-block;
+    vertical-align: top;
+    }
+  
+  .grid,
+  .col-1-3,
+  .col-2-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+   }
 
 
 /*
@@ -104,18 +136,6 @@ Grid
   clear: both;
   *zoom: 1;
 }
-
-
-/*
-  ========================================
-Typography
-  ========================================
-*/
-
-h1, h3, h4, h5, p {
-  margin-bottom: 22px;
-    }
-
 
 /*
   ========================================
@@ -225,50 +245,27 @@ h1, h3, h4, h5, p {
   font-weight: 100;
 }
 
-.col-1-3 {
-  width: 33.33%;
-  }
 
-.col-2-3 {
-  width: 66.66%;
-  }
 
-.col-1-3,
-.col-2-3 {
-  display: inline-block;
-  vertical-align: top;
-  }
-
-.grid,
-.col-1-3,
-.col-2-3 {
-  padding-left: 15px;
-  padding-right: 15px;
- }
-
-/*
+ /*
   ========================================
-  Custom styles
+Typography
   ========================================
-*/
+Color Theme Swatches in Hex
+ */
+ .Norman-6-1-hex { color: #264B80; }
+ .Norman-6-2-hex { color: #99C4FF; }
+ .Norman-6-3-hex { color: #4C97FF; }
+ .Norman-6-4-hex { color: #4D6280; }
+ .Norman-6-5-hex { color: #3D79CC; }
+ .Norman-6-6-hex { color: #888888; }
+ .Norman-6-7-hex { color: #a9b2b9; }
+ .Norman-6-8-hex { color: #FFD36B; }
+ .Norman-6-9-hex { color: #B38927; }
 
-
-/* Color Theme Swatches in Hex */
-.Norman-6-1-hex { color: #264B80; }
-.Norman-6-2-hex { color: #99C4FF; }
-.Norman-6-3-hex { color: #4C97FF; }
-.Norman-6-4-hex { color: #4D6280; }
-.Norman-6-5-hex { color: #3D79CC; }
-.Norman-6-6-hex { color: #888888; }
-.Norman-6-7-hex { color: #a9b2b9; }
-.Norman-6-8-hex { color: #FFD36B; }
-.Norman-6-9-hex { color: #B38927; }
-
-body {
-  background: #4D6280; 
-  color: #888888;
-  font: 300 16px/22px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+    }
 
 h1, h2, h4 {
   color: #ffffff;
@@ -278,6 +275,7 @@ h1 {
   font-size: 36px;
   line-height: 44px;
 }
+
 h2 {
   font-size: 24px;
   line-height: 44px;
@@ -314,10 +312,6 @@ a {
   text-decoration: none;
 }
 
-p a {
-  border-bottom: 1px solid #3D79CC;
-}
-
 .teaser a:hover h3 {
   color: #FFD36B;
   font-weight: 400;
@@ -349,17 +343,23 @@ p a {
   padding: 66px 0 44px 0;
 }
 .row-alt {
-   background: #cbe2c1;
-   background: -webkit-linear-gradient(to right, #fff, #4D6280);
-   background: -moz-linear-gradient(to right, #fff, #4D6280);
-   background: linear-gradient(to right, #fff, #4D6280);
+   background: #a9b2b9;
+   background: -webkit-linear-gradient(to right, #ffffff, #a9b2b9);
+   background: -moz-linear-gradient(to right, #ffffff, #a9b2b9);
+   background: linear-gradient(to right, #ffffff, #a9b2b9);
    padding: 44px 0 22px 0;
  }
 
+/*
+  ========================================
+  Stock Items
+  ========================================
+*/
 
-
-
-
+ .pages h1,
+ .pages p {
+  color: #4D6280;
+}
 
 
 
