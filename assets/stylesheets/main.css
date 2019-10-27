@@ -125,13 +125,23 @@ h1, h3, h4, h5, p {
 
 .btn {
   border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
   display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
   margin: 0;
+  text-transform: uppercase;
     }
 
 .btn-alt {
-  border: 1px solid #dfe2e5;
+  border: 1px solid #ffffff;
   padding: 10px 30px;
+}
+
+.btn-alt:hover {
+  background: #FFD36B;
+  color: #ffffff;
 }
 
 
@@ -142,7 +152,7 @@ h1, h3, h4, h5, p {
 */
 
 .logo {
-  border-top: 4px solid #3D79CC;
+  border-top: 10px solid #FFD36B;
   float: left;
   font-size: 48px;
   font-weight: 100;
@@ -152,8 +162,9 @@ h1, h3, h4, h5, p {
   text-transform: uppercase;
   }
 
-  .tagline {
-    margin: 66px 0 22px 0;
+.tagline {
+    color: #FFD36B;
+    margin: 74px 0 22px 0;
     text-align: right;
   }
 
@@ -198,6 +209,7 @@ h1, h3, h4, h5, p {
 */
 
 .hero {
+  color: #ffffff;
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
@@ -247,15 +259,18 @@ h1, h3, h4, h5, p {
 .Norman-6-4-hex { color: #4D6280; }
 .Norman-6-5-hex { color: #3D79CC; }
 .Norman-6-6-hex { color: #888888; }
-.Norman-6-7-hex { color: #a9b2b9;}
+.Norman-6-7-hex { color: #a9b2b9; }
+.Norman-6-8-hex { color: #FFD36B; }
+.Norman-6-9-hex { color: #B38927; }
 
 body {
+  background: #4D6280; 
   color: #888888;
   font: 300 16px/22px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4 {
-  color: #3D79CC;
+h1, h2, h4 {
+  color: #ffffff;
 }
 
 h1 {
@@ -267,6 +282,7 @@ h2 {
   line-height: 44px;
 }
 h3 {
+  color: #4D6280;
   font-size: 21px;
 }
 h4 {
@@ -274,7 +290,7 @@ h4 {
 }
 
 h5 {
-  color: #3D79CC;
+  color: #4D6280;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -294,12 +310,7 @@ cite, em {
 */
 
 a {
-  color: #3D79CC;
   text-decoration: none;
-}
-
-a:hover {
-  color: #a9b2b9;
 }
 
 p a {
@@ -307,9 +318,41 @@ p a {
 }
 
 .teaser a:hover h3 {
-  color: #a9b2b9;
+  color: #FFD36B;
 }
 
+.primary-header a,
+.primary-footer a {
+  color: #ffffff;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #FFD36B;
+}
+
+/*
+  ========================================
+  Rows
+  ========================================
+*/
+
+.row,
+.row-alt {
+  min-width: 960px;
+}
+
+.row {
+  background: #fff;
+  padding: 66px 0 44px 0;
+}
+.row-alt {
+   background: #cbe2c1;
+   background: -webkit-linear-gradient(to right, #fff, #4D6280);
+   background: -moz-linear-gradient(to right, #fff, #4D6280);
+   background: linear-gradient(to right, #fff, #4D6280);
+   padding: 44px 0 22px 0;
+ }
 
 
 
