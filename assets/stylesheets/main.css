@@ -407,12 +407,6 @@ a {
   Contact
   ========================================
 */
-
-.contact {
-
-  margin-bottom: 66px;
-}
-
 .contact h2 {
   color: #4D6280;
 }
@@ -423,21 +417,21 @@ a {
 }
 
 .contact img {
-  height: 130px;
-  margin: -66px 0 22px 0;
-  vertical-align: top;
+  border-radius: 8px;
+  display: inline-block;
+  height: 200px;
+  vertical-align: bottom;
+  margin: 8px 0 22px 0;
 }
 
 .contact a {
-  color: #264B80;
+  color: #4D6280;
 }
-
 
 .contact a:hover {
   color: #FFD36B;
   font-weight: 400;
 }
-
 
 
 
