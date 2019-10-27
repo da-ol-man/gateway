@@ -142,6 +142,7 @@ h1, h3, h4, h5, p {
 .btn-alt:hover {
   background: #FFD36B;
   color: #ffffff;
+  font-weight: 400;
 }
 
 
@@ -319,6 +320,7 @@ p a {
 
 .teaser a:hover h3 {
   color: #FFD36B;
+  font-weight: 400;
 }
 
 .primary-header a,
