@@ -408,23 +408,35 @@ a {
   ========================================
 */
 
-.venue-theatre {
+.contact {
 
   margin-bottom: 66px;
 }
 
-.venue-theatre h2 {
+.contact h2 {
   color: #4D6280;
 }
 
-.venue-theatre p {
+.contact p {
   color: #4D6280;
   font-size: 18px;
 }
 
+.contact img {
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
+
+.contact a {
+  color: #264B80;
+}
 
 
-
+.contact a:hover {
+  color: #FFD36B;
+  font-weight: 400;
+}
 
 
 
