@@ -411,6 +411,7 @@ a {
 .contact p {
   color: #4D6280;
   font-size: 18px;
+  margin: 0;
 }
 
 .contact img {
