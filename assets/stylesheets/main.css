@@ -53,11 +53,7 @@ table {
   border-spacing: 0;
 }
 
-  /*  
-============================================
-This is the CSS RESET above
-============================================
-*/
+  /* This is the CSS RESET above */
 
 /*
   ========================================
@@ -438,56 +434,3 @@ a {
 responsive
 ==============================
 */
-
-@media screen and (max-width: 944px) 
-{ /*
-  ==============================
-  responsive
-  ==============================
-  */
-  
-  @media screen and (max-width: 944px) 
-  { .logo {
-    margin-bottom: 0;
-    }
-    
-  }
-    
-    
-    
-    
-  }
-  
-  @media screen and (max-width: 720px) 
-  {  
-    
-    
-  }
-  
-}
-
-
-@media screen and (max-width: 720px) 
-{  
-  
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
