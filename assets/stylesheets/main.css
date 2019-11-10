@@ -141,7 +141,8 @@ Grid
 
 .btn {
   border-radius: 5px;
-  color: #ffffff;
+  background-color: #FFD36B;
+  color: #4D6280;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -156,9 +157,9 @@ Grid
 }
 
 .btn-alt:hover {
-  background: #FFD36B;
-  color: #ffffff;
-  font-weight: 400;
+  background: #ffffff;
+  color: #4D6280;
+  font-weight: 500;
 }
 
 
